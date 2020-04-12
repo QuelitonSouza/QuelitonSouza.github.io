@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 1
+date: 2020-01-01
+img: erp.png
+print: starsoft.jpg
+alt: image-alt
+project-date: Junho 2012
+client: Starsoft
+category: ERP StarSoft
+description: Participei da implantação, customização e treinamento dos modulos Contas a pagar, Contas a receber, Contas e Aplicações, Livros Fiscais, Contabilidade, RH, Ponto Eletronico, Estoque, Compras, Vendas e Nota Fiscal Eletronica. Empresas como Irineu Imoveis, Carglass, AGP, Fipe, Eletro Nacional entre outras.
+---

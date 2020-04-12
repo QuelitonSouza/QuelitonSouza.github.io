@@ -455,3 +455,7 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+.image-border{
+    border: 5px solid #2C3E50;
+}

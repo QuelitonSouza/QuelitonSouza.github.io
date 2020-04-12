@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 5
+date: 2020-01-05
+img: cake.png
+print: gestaomesas.png
+alt: image-alt
+project-date: Maio 2019
+client: Jhoppsbar
+category: Portal Web Responsivo
+description: Sistema de gestão de mesas, caixa e controle de pedidos. sistema pode ser acessada pelos garçons através do celular, tablet e desktop.
+---

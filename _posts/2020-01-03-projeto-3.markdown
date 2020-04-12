@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 3
+date: 2020-01-03
+img: compras.png
+print: comprasonline.png
+alt: image-alt
+project-date: Março 2019
+client: Irineu Imoveis
+category: Portal Web
+description: Sistema para controlar pedidos internos de materiais usados no escritório e obras, gerar cotação, controlar o preenchido dos valores pelos fornecedores e indicar a melhor cotação para o comprador interno. A Ferramenta possui um controle de frotas de veículos, gestão de clientes negativados junto a CDL (SPC).
+---

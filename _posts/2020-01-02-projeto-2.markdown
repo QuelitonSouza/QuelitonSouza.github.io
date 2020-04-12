@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 2
+date: 2020-01-02
+img: search.png
+print: portalboleto.png
+alt: image-alt
+project-date: Janeiro 2017
+client: Irineu Imoveis
+category: Portal Web (Clientes)
+description: Portal para os clientes que possui financiamento gerar boletos e acompanhar os valores paga, valores em aberto, agendar negociação com integrção com agenda do google.
+---
