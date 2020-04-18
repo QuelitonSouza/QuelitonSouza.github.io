@@ -8,5 +8,5 @@ alt: image-alt
 project-date: Janeiro 2017
 client: Irineu Imoveis
 category: Portal Web (Clientes)
-description: Portal para os clientes que possui financiamento gerar boletos e acompanhar os valores paga, valores em aberto, agendar negociação com integrção com agenda do google.
+description: Portal para os clientes que possui financiamento gerar boletos e acompanhar os valores pago, valores em aberto, agendar negociação integrado com agenda do google.
 ---

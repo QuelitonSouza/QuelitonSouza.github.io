@@ -8,5 +8,5 @@ alt: image-alt
 project-date: Maio 2019
 client: Jhoppsbar
 category: Portal Web Responsivo
-description: Sistema de gestão de mesas, caixa e controle de pedidos. sistema pode ser acessada pelos garçons através do celular, tablet e desktop.
+description: Sistema de Controle de mesas, caixa e pedidos. sistema é responsivo onde é possivel ser acessado através do celular, tablet e desktop. sendo possivel o garçon fechar o pedido no ato no atendimento ao cliente.
 ---
