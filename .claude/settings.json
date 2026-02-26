@@ -1,0 +1,17 @@
+{
+  "enabledPlugins": {
+    "ring-default@ring": true,
+    "ring-pm-team@ring": true,
+    "ring-pmo-team@ring": true,
+    "ring-finops-team@ring": true,
+    "ring-tw-team@ring": true
+  },
+  "permissions": {
+    "allow": [
+      "Bash(set \"ASPNETCORE_URLS=http://localhost:5000\")",
+      "Bash(*)",
+      "Read(*)",
+      "Write(*)"
+    ]
+  }
+}

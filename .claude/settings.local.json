@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(dotnet build:*)",
+      "Bash(Select-Object -Last 5)",
+      "Bash(npm run build:*)",
+      "Bash(dir:*)",
+      "Bash(npx vite build:*)",
+      "Bash(/dev/null -exec grep -l \"SgsiUrl\" {} ;)",
+      "Bash(del \"d:\\\\WorkSpace\\\\Cyber_Teseu\\\\Projeto\\\\vCISO.Solution\\\\src\\\\vCISO.API\\\\Controllers\\\\DebugController.cs\")",
+      "Bash(findstr:*)",
+      "Bash(Select-String -Pattern \"error|Build succeeded|Build FAILED\")",
+      "Bash(ls:*)",
+      "Bash(dotnet sln add:*)",
+      "Bash(dotnet restore:*)",
+      "Bash(curl:*)",
+      "Bash(dotnet run:*)",
+      "Bash(timeout /t 8 /nobreak)",
+      "Bash(ping:*)",
+      "Bash(dotnet test:*)",
+      "Bash(set ASPNETCORE_ENVIRONMENT=Development:*)",
+      "Bash(tasklist:*)",
+      "Read(//c/Users/Queliton/.claude/plugins/cache/ring/ring-default/0.38.1/lib/codereview/bin/**)",
+      "WebFetch(domain:www.linkedin.com)"
+    ]
+  }
+}

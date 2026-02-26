@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QSP Info — Desenvolvimento de Software de Alta Performance</title>
+  <meta name="description" content="13+ anos desenvolvendo software de alta performance. Sites, sistemas SaaS, plataformas corporativas com .NET, C#, AWS, React e Next.js.">
+  <meta name="author" content="QSP Info">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="QSP Info — Desenvolvimento de Software de Alta Performance">
+  <meta property="og:description" content="13+ anos desenvolvendo software que gera resultados. De landing pages a plataformas SaaS complexas.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <nav class="nav" id="nav">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">QSP<span class="accent">info</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#experiencia" class="nav-link">Experiência</a></li>
+        <li><a href="#projetos" class="nav-link">Projetos</a></li>
+        <li><a href="#servicos" class="nav-link">Serviços</a></li>
+        <li><a href="#tecnologias" class="nav-link">Tecnologias</a></li>
+        <li><a href="#contato" class="nav-link nav-link--cta">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-glow hero-glow--1"></div>
+      <div class="hero-glow hero-glow--2"></div>
+      <div class="hero-grid-bg"></div>
+    </div>
+    <div class="container hero-content">
+      <p class="hero-badge">Disponível para novos projetos</p>
+      <h1 class="hero-title">
+        <span class="hero-title__number">13+</span> anos desenvolvendo<br>
+        software de <span class="accent">alta performance</span>
+      </h1>
+      <p class="hero-subtitle">
+        De landing pages a plataformas SaaS complexas — entregamos projetos<br>
+        com .NET, C#, AWS, React e Next.js que impressionam e funcionam.
+      </p>
+      <div class="hero-actions">
+        <a href="#contato" class="btn btn--primary">Solicitar Orçamento</a>
+        <a href="#projetos" class="btn btn--outline">Ver Projetos</a>
+      </div>
+
+      <div class="hero-trust">
+        <p class="hero-trust__label">Clientes que confiam no nosso trabalho</p>
+        <div class="hero-trust__logos">
+          <span class="trust-logo">Teseu Cybersecurity</span>
+          <span class="trust-logo">Platte</span>
+          <span class="trust-logo">Spark EDM</span>
+          <span class="trust-logo">Personal Raul</span>
+          <span class="trust-logo">Irineu Imóveis</span>
+          <span class="trust-logo">Jhoppsbar</span>
+        </div>
+      </div>
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat__value">
+            <span class="hero-stat__number" data-count="13">0</span><span class="hero-stat__plus accent">+</span>
+          </div>
+          <span class="hero-stat__label">Anos de Experiência</span>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat__value">
+            <span class="hero-stat__number" data-count="7">0</span><span class="hero-stat__plus accent">+</span>
+          </div>
+          <span class="hero-stat__label">Empresas</span>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat__value">
+            <span class="hero-stat__number" data-count="15">0</span><span class="hero-stat__plus accent">+</span>
+          </div>
+          <span class="hero-stat__label">Projetos Entregues</span>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat__value">
+            <span class="hero-stat__number" data-count="4">0</span>
+          </div>
+          <span class="hero-stat__label">Plataformas SaaS</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#experiencia" aria-label="Scroll para experiência">
+        <i data-lucide="chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section section--alt" id="experiencia">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Quem está por trás</p>
+        <h2 class="section-title">Experiência <span class="accent">Profissional</span></h2>
+        <p class="section-subtitle">Nosso fundador acumula 13+ anos de experiência em empresas de diferentes portes e segmentos.</p>
+      </div>
+
+      <div class="timeline">
+
+        <!-- BMP -->
+        <div class="timeline-item timeline-item--current" data-animate>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Senior Software Engineer</h3>
+                <p class="timeline-company">BMP</p>
+              </div>
+              <span class="timeline-date">Set 2020 — Atual</span>
+            </div>
+            <p class="timeline-desc">
+              Engenheiro sênior em .NET & C# com foco em Identity Server e SSO.
+              Atuação na equipe de Crédito e anteriormente no time de Digital Bank (DBS).
+            </p>
+            <div class="timeline-tech">
+              <span>.NET / ASP.NET Core</span>
+              <span>C#</span>
+              <span>SQL Server</span>
+              <span>PostgreSQL</span>
+              <span>CosmosDB</span>
+              <span>DynamoDB</span>
+              <span>Redis</span>
+              <span>AngularJS</span>
+              <span>Vue.js</span>
+              <span>RazorPages</span>
+            </div>
+            <div class="timeline-aws">
+              <p class="timeline-aws__label">AWS:</p>
+              <div class="timeline-aws__items">
+                <span>ECS</span>
+                <span>S3</span>
+                <span>EC2</span>
+                <span>CloudWatch</span>
+                <span>SNS</span>
+                <span>SQS</span>
+                <span>Lambda</span>
+                <span>Glue</span>
+                <span>Athena</span>
+                <span>API Gateway</span>
+                <span>X-Ray</span>
+                <span>RDS</span>
+                <span>Cognito SSO</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SIC 360 -->
+        <div class="timeline-item" data-animate>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Desenvolvedor Sênior</h3>
+                <p class="timeline-company">SIC 360</p>
+              </div>
+              <span class="timeline-date">Mar 2018 — Ago 2020</span>
+            </div>
+            <p class="timeline-desc">
+              Desenvolvimento de software em Joinville, SC. Atuação em projetos de médio e grande porte por 2 anos e 6 meses.
+            </p>
+          </div>
+        </div>
+
+        <!-- by Seven -->
+        <div class="timeline-item" data-animate>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Desenvolvedor de Software</h3>
+                <p class="timeline-company">by Seven | IT business and consulting</p>
+              </div>
+              <span class="timeline-date">Ago 2017 — Mar 2018</span>
+            </div>
+            <p class="timeline-desc">
+              Consultoria e desenvolvimento de soluções de TI em Joinville.
+            </p>
+          </div>
+        </div>
+
+        <!-- GTI Consultoria -->
+        <div class="timeline-item" data-animate>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Consultor de Negócios & Desenvolvedor</h3>
+                <p class="timeline-company">GTI Consultoria</p>
+              </div>
+              <span class="timeline-date">Nov 2015 — Ago 2017</span>
+            </div>
+            <p class="timeline-desc">
+              Consultoria de negócios e desenvolvimento de software em Curitiba, PR.
+            </p>
+          </div>
+        </div>
+
+        <!-- Starsoft (Pleno) -->
+        <div class="timeline-item" data-animate>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Analista Desenvolvedor Pleno</h3>
+                <p class="timeline-company">starsoftbr</p>
+              </div>
+              <span class="timeline-date">Out 2014 — Nov 2015</span>
+            </div>
+            <p class="timeline-desc">
+              Visitas a clientes, customização de sistema, atualizações de versão e implantação de módulos.
+            </p>
+            <div class="timeline-tech">
+              <span>Visual Fox Pro</span>
+              <span>SQL Server</span>
+              <span>Oracle</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Linx -->
+        <div class="timeline-item" data-animate>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Programmer Analyst</h3>
+                <p class="timeline-company">Linx S.A.</p>
+              </div>
+              <span class="timeline-date">Jul 2014 — Out 2014</span>
+            </div>
+            <p class="timeline-desc">
+              Análise e desenvolvimento de software em São Paulo.
+            </p>
+          </div>
+        </div>
+
+        <!-- Starsoft (Junior) -->
+        <div class="timeline-item" data-animate>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Desenvolvedor Júnior</h3>
+                <p class="timeline-company">starsoftbr</p>
+              </div>
+              <span class="timeline-date">Jul 2012 — Jul 2014</span>
+            </div>
+            <p class="timeline-desc">
+              Desenvolvimento em Visual FoxPro 9 e SQL Server 2008 R2 / Oracle 11g.
+              Projetos: Grupo Asserth, Moinho Globo Alimentos, Icsa, Balanças Micheletti.
+            </p>
+            <div class="timeline-tech">
+              <span>Visual FoxPro 9</span>
+              <span>SQL Server 2008 R2</span>
+              <span>Oracle 11g</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Education -->
+      <div class="education-section">
+        <h3 class="education-title"><i data-lucide="graduation-cap"></i> Formação Acadêmica</h3>
+        <div class="education-grid">
+          <div class="education-card" data-animate>
+            <h4 class="education-card__degree">MBA em Desenvolvimento Mobile</h4>
+            <p class="education-card__school">Instituto de Gestão e Tecnologia da Informação</p>
+            <p class="education-card__year">2020</p>
+          </div>
+          <div class="education-card" data-animate>
+            <h4 class="education-card__degree">Tecnólogo em Análise de Sistemas</h4>
+            <p class="education-card__school">Centro Universitário Anhangüera</p>
+            <p class="education-card__year">2013 — 2015</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div class="education-section">
+        <h3 class="education-title"><i data-lucide="award"></i> Certificações</h3>
+        <div class="certifications-list">
+          <span class="cert-badge" data-animate>Docker do Zero ao Avançado</span>
+          <span class="cert-badge" data-animate>Fundamentos de Arquitetura de Software</span>
+          <span class="cert-badge" data-animate>Introdução ao Entity Framework Core</span>
+          <span class="cert-badge" data-animate>Iniciando com ASP.NET Core</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS - FREELANCE ============ -->
+  <section class="section" id="projetos">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Portfólio</p>
+        <h2 class="section-title">Projetos <span class="accent">Freelance</span> em Produção</h2>
+        <p class="section-subtitle">Projetos próprios publicados e operando em produção real.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Teseu -->
+        <article class="project-card project-card--featured" data-animate>
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="shield"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag tag--saas">SaaS</span>
+              <span class="tag">Multi-plataforma</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Teseu Cybersecurity</h3>
+          <p class="project-card__type">Ecossistema de Cibersegurança</p>
+          <p class="project-card__desc">
+            Ecossistema completo com 4 aplicações integradas: site institucional, vCISO, SGSI e blog corporativo.
+            Plataformas de gestão de riscos, compliance e segurança da informação.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Site institucional + captação de leads</li>
+            <li>vCISO — Gestão de riscos e compliance</li>
+            <li>SGSI — Segurança da informação</li>
+            <li>Blog com painel administrativo</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>Full Stack</span>
+            <span>Autenticação</span>
+            <span>SaaS</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://www.teseucybersecurity.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="external-link"></i> Site
+            </a>
+            <a href="https://vciso.teseucybersecurity.com.br/login" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="lock"></i> vCISO
+            </a>
+            <a href="https://sgsi.teseucybersecurity.com.br/login" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="lock"></i> SGSI
+            </a>
+            <a href="https://blog.teseucybersecurity.com.br/login" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="lock"></i> Blog
+            </a>
+          </div>
+        </article>
+
+        <!-- Platte -->
+        <article class="project-card" data-animate>
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="zap"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag">Institucional</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Platte</h3>
+          <p class="project-card__type">Painéis Elétricos e Manutenção Industrial</p>
+          <p class="project-card__desc">
+            Site institucional para empresa com 15+ anos no mercado de soluções industriais.
+            Catálogo dinâmico, seção de serviços e integração com WhatsApp.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Catálogo de produtos dinâmico</li>
+            <li>Serviços detalhados (manutenção, retrofit)</li>
+            <li>Fabricantes: Siemens, ABB, Schneider, WEG</li>
+            <li>Design responsivo com animações</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>Next.js</span>
+            <span>React</span>
+            <span>SEO</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://platte-site.vercel.app/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="external-link"></i> Ver Site
+            </a>
+          </div>
+        </article>
+
+        <!-- Spark EDM -->
+        <article class="project-card" data-animate>
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="wrench"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag">Institucional</span>
+              <span class="tag tag--saas">Plataforma</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Spark EDM Service</h3>
+          <p class="project-card__type">Eletroerosão Industrial</p>
+          <p class="project-card__desc">
+            Ecossistema digital para empresa com 20+ anos de mercado.
+            Site com métricas animadas e plataforma de vendas com catálogo e área do cliente.
+          </p>
+          <ul class="project-card__highlights">
+            <li>6 categorias de serviços especializados</li>
+            <li>150+ máquinas vendidas, 500+ manutenções</li>
+            <li>Catálogo de máquinas novas e seminovas</li>
+            <li>Área do cliente com autenticação</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>Full Stack</span>
+            <span>E-commerce</span>
+            <span>Autenticação</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://www.sparkedm.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="external-link"></i> Site
+            </a>
+            <a href="https://app.sparkedm.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="lock"></i> Plataforma
+            </a>
+          </div>
+        </article>
+
+        <!-- Personal Raul -->
+        <article class="project-card" data-animate>
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="dumbbell"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag">Landing Page</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Personal Raul</h3>
+          <p class="project-card__type">Consultoria Esportiva</p>
+          <p class="project-card__desc">
+            Landing page profissional para personal trainer focada em conversão com integração WhatsApp.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Design focado em conversão</li>
+            <li>Apresentação de serviços</li>
+            <li>Integração com WhatsApp</li>
+            <li>Layout responsivo e moderno</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>Landing Page</span>
+            <span>Responsivo</span>
+            <span>Conversão</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://www.personalraul.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="external-link"></i> Ver Site
+            </a>
+          </div>
+        </article>
+
+        <!-- SiloePag -->
+        <article class="project-card" data-animate>
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="bar-chart-3"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag tag--saas">SaaS</span>
+              <span class="tag">Financeiro</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">SiloePag</h3>
+          <p class="project-card__type">Sistema de Contas a Pagar — QSP Info</p>
+          <p class="project-card__desc">
+            Sistema financeiro web para gestão de contas a pagar com autenticação segura e interface intuitiva.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Gestão de contas a pagar</li>
+            <li>Autenticação e controle de acesso</li>
+            <li>Interface intuitiva para uso diário</li>
+            <li>Painel financeiro</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>SaaS</span>
+            <span>Financeiro</span>
+            <span>Dashboard</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://siloepag.qspinfo.com.br/login" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="lock"></i> Acessar
+            </a>
+          </div>
+        </article>
+
+        <!-- Intranet -->
+        <article class="project-card" data-animate>
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="building-2"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag">Corporativo</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Intranet Corporativa</h3>
+          <p class="project-card__type">QSP Info</p>
+          <p class="project-card__desc">
+            Intranet completa para comunicação interna, gestão de documentos e colaboração entre equipes.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Comunicação interna</li>
+            <li>Gestão de documentos</li>
+            <li>Controle de acesso por perfis</li>
+            <li>Colaboração entre equipes</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>Intranet</span>
+            <span>Colaboração</span>
+            <span>Autenticação</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://intranet.qspinfo.com.br/login" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="lock"></i> Acessar
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS - CORPORATE / LEGACY ============ -->
+  <section class="section section--alt" id="projetos-corporativos">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Trajetória Corporativa</p>
+        <h2 class="section-title">Projetos <span class="accent">Anteriores</span></h2>
+        <p class="section-subtitle">Projetos desenvolvidos ao longo da carreira em empresas e consultorias.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- ERP StarSoft -->
+        <article class="project-card" data-animate>
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="database"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag">ERP</span>
+              <span class="tag">2012</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">ERP StarSoft</h3>
+          <p class="project-card__type">Starsoft — Implantação e Customização</p>
+          <p class="project-card__desc">
+            Implantação, customização e treinamento de módulos ERP: Contas a Pagar, Contas a Receber, Livros Fiscais, Contabilidade, RH, Ponto Eletrônico, Estoque, Compras, Vendas e NF-e.
+          </p>
+          <ul class="project-card__highlights">
+            <li>10+ módulos implantados e customizados</li>
+            <li>Treinamento de equipes nos clientes</li>
+            <li>Clientes: Irineu Imóveis, Carglass, AGP, Fipe, Eletro Nacional</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>Visual FoxPro</span>
+            <span>SQL Server</span>
+            <span>Oracle</span>
+          </div>
+        </article>
+
+        <!-- Portal Clientes -->
+        <article class="project-card" data-animate>
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="file-text"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag">Portal Web</span>
+              <span class="tag">2017</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Portal de Clientes</h3>
+          <p class="project-card__type">Irineu Imóveis — Financeiro</p>
+          <p class="project-card__desc">
+            Portal web para clientes com financiamento imobiliário. Geração de boletos, acompanhamento de valores pagos e em aberto, agendamento de negociação integrado com Google Agenda.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Geração de boletos online</li>
+            <li>Acompanhamento de pagamentos</li>
+            <li>Integração com Google Agenda</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>Portal Web</span>
+            <span>Financeiro</span>
+            <span>Google API</span>
+          </div>
+        </article>
+
+        <!-- Portal Compras -->
+        <article class="project-card" data-animate>
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="shopping-cart"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag">Portal Web</span>
+              <span class="tag">2019</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Portal de Compras</h3>
+          <p class="project-card__type">Irineu Imóveis — Gestão Interna</p>
+          <p class="project-card__desc">
+            Sistema de controle de pedidos internos de materiais, cotações com fornecedores, controle de frotas de veículos e gestão de clientes negativados junto à CDL (SPC).
+          </p>
+          <ul class="project-card__highlights">
+            <li>Pedidos internos de materiais</li>
+            <li>Cotação automática com fornecedores</li>
+            <li>Controle de frotas</li>
+            <li>Consulta CDL/SPC</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>Portal Web</span>
+            <span>Compras</span>
+            <span>Frotas</span>
+          </div>
+        </article>
+
+        <!-- Wooboogie Admin -->
+        <article class="project-card" data-animate>
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="smartphone"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag">Admin Panel</span>
+              <span class="tag">2018</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Admin Wooboogie</h3>
+          <p class="project-card__type">Wooboogie — Painel Administrativo</p>
+          <p class="project-card__desc">
+            Sistema web para controle de usuários cadastrados no aplicativo, gerenciamento de pedidos e suporte aos usuários.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Gestão de usuários do app</li>
+            <li>Controle de pedidos</li>
+            <li>Suporte ao usuário</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>Admin Panel</span>
+            <span>Gestão</span>
+            <span>Suporte</span>
+          </div>
+        </article>
+
+        <!-- Gestão de Mesas -->
+        <article class="project-card" data-animate>
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="utensils"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag">Responsivo</span>
+              <span class="tag">2019</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Gestão de Mesas</h3>
+          <p class="project-card__type">Jhoppsbar — Sistema para Restaurantes</p>
+          <p class="project-card__desc">
+            Sistema responsivo de controle de mesas, caixa e pedidos. Acesso via celular, tablet ou desktop — o garçom fecha o pedido no ato do atendimento ao cliente.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Controle de mesas em tempo real</li>
+            <li>Caixa e fechamento de pedidos</li>
+            <li>Responsivo: celular, tablet, desktop</li>
+            <li>Pedido direto na mesa pelo garçom</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>Responsivo</span>
+            <span>PDV</span>
+            <span>Tempo Real</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section" id="servicos">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Serviços</p>
+        <h2 class="section-title">O que <span class="accent">fazemos</span></h2>
+        <p class="section-subtitle">Soluções completas de desenvolvimento — do conceito ao deploy.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card" data-animate>
+          <div class="service-card__icon"><i data-lucide="monitor"></i></div>
+          <h3 class="service-card__title">Sites Institucionais</h3>
+          <p class="service-card__desc">Sites profissionais com design moderno, animações, SEO otimizado e responsividade total.</p>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-card__icon"><i data-lucide="layers"></i></div>
+          <h3 class="service-card__title">Sistemas Web / SaaS</h3>
+          <p class="service-card__desc">Plataformas completas com autenticação, dashboards, painéis administrativos e lógica de negócio.</p>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-card__icon"><i data-lucide="rocket"></i></div>
+          <h3 class="service-card__title">Landing Pages</h3>
+          <p class="service-card__desc">Páginas de alta conversão com integração WhatsApp, formulários e tracking.</p>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-card__icon"><i data-lucide="plug"></i></div>
+          <h3 class="service-card__title">Integrações & APIs</h3>
+          <p class="service-card__desc">Conexão entre sistemas, APIs REST e automações de processos.</p>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-card__icon"><i data-lucide="shield-check"></i></div>
+          <h3 class="service-card__title">Plataformas de Segurança</h3>
+          <p class="service-card__desc">Sistemas de gestão de riscos, compliance, SGSI e ferramentas vCISO.</p>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-card__icon"><i data-lucide="cloud"></i></div>
+          <h3 class="service-card__title">Deploy & Infraestrutura</h3>
+          <p class="service-card__desc">Publicação em Vercel, AWS, VPS — domínios, SSL, CI/CD e monitoramento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TECHNOLOGIES ============ -->
+  <section class="section section--alt" id="tecnologias">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Stack</p>
+        <h2 class="section-title">Tecnologias</h2>
+        <p class="section-subtitle">As ferramentas que usamos para entregar resultados.</p>
+      </div>
+
+      <div class="tech-categories">
+        <div class="tech-category" data-animate>
+          <h3 class="tech-category__title"><i data-lucide="server"></i> Backend</h3>
+          <div class="tech-category__items">
+            <span class="tech-badge">C#</span>
+            <span class="tech-badge">.NET / ASP.NET Core</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">REST APIs</span>
+            <span class="tech-badge">Identity Server</span>
+          </div>
+        </div>
+        <div class="tech-category" data-animate>
+          <h3 class="tech-category__title"><i data-lucide="layout"></i> Frontend</h3>
+          <div class="tech-category__items">
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">Next.js</span>
+            <span class="tech-badge">TypeScript</span>
+            <span class="tech-badge">AngularJS</span>
+            <span class="tech-badge">Vue.js</span>
+            <span class="tech-badge">Tailwind CSS</span>
+            <span class="tech-badge">RazorPages</span>
+          </div>
+        </div>
+        <div class="tech-category" data-animate>
+          <h3 class="tech-category__title"><i data-lucide="database"></i> Banco de Dados</h3>
+          <div class="tech-category__items">
+            <span class="tech-badge">SQL Server</span>
+            <span class="tech-badge">PostgreSQL</span>
+            <span class="tech-badge">CosmosDB</span>
+            <span class="tech-badge">DynamoDB</span>
+            <span class="tech-badge">MongoDB</span>
+            <span class="tech-badge">Redis</span>
+            <span class="tech-badge">Firebase</span>
+          </div>
+        </div>
+        <div class="tech-category tech-category--wide" data-animate>
+          <h3 class="tech-category__title"><i data-lucide="cloud"></i> AWS</h3>
+          <div class="tech-category__items">
+            <span class="tech-badge">ECS</span>
+            <span class="tech-badge">S3</span>
+            <span class="tech-badge">EC2</span>
+            <span class="tech-badge">Lambda</span>
+            <span class="tech-badge">API Gateway</span>
+            <span class="tech-badge">CloudWatch</span>
+            <span class="tech-badge">SNS / SQS</span>
+            <span class="tech-badge">Glue</span>
+            <span class="tech-badge">Athena</span>
+            <span class="tech-badge">X-Ray</span>
+            <span class="tech-badge">RDS</span>
+            <span class="tech-badge">Cognito SSO</span>
+          </div>
+        </div>
+        <div class="tech-category" data-animate>
+          <h3 class="tech-category__title"><i data-lucide="container"></i> DevOps</h3>
+          <div class="tech-category__items">
+            <span class="tech-badge">Docker</span>
+            <span class="tech-badge">CI/CD</span>
+            <span class="tech-badge">Vercel</span>
+            <span class="tech-badge">AWS</span>
+          </div>
+        </div>
+        <div class="tech-category" data-animate>
+          <h3 class="tech-category__title"><i data-lucide="puzzle"></i> Outros</h3>
+          <div class="tech-category__items">
+            <span class="tech-badge">JWT / OAuth</span>
+            <span class="tech-badge">SSO / Identity Server</span>
+            <span class="tech-badge">Entity Framework</span>
+            <span class="tech-badge">Figma &rarr; Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contato">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Contato</p>
+        <h2 class="section-title">Vamos <span class="accent">conversar</span>?</h2>
+        <p class="section-subtitle">Tem um projeto em mente? Vamos transformá-lo em realidade.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form class="contact-form" action="https://formspree.io/f/queliton.pires@gmail.com" method="POST" id="contactForm">
+          <div class="form-group">
+            <label for="name" class="form-label">Nome</label>
+            <input type="text" id="name" name="name" class="form-input" placeholder="Seu nome" required>
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="seu@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">Mensagem</label>
+            <textarea id="message" name="message" class="form-input form-textarea" placeholder="Conte-me sobre seu projeto..." rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">
+            <i data-lucide="send"></i> Enviar Mensagem
+          </button>
+        </form>
+
+        <div class="contact-info">
+          <h3 class="contact-info__title">Outras formas de contato</h3>
+          <div class="contact-links">
+            <a href="https://wa.me/5547997612997" target="_blank" rel="noopener" class="contact-link">
+              <div class="contact-link__icon"><i data-lucide="message-circle"></i></div>
+              <div>
+                <p class="contact-link__label">WhatsApp</p>
+                <p class="contact-link__value">(47) 99761-2997</p>
+              </div>
+            </a>
+            <a href="mailto:queliton.pires@gmail.com" class="contact-link">
+              <div class="contact-link__icon"><i data-lucide="mail"></i></div>
+              <div>
+                <p class="contact-link__label">E-mail</p>
+                <p class="contact-link__value">queliton.pires@gmail.com</p>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/qspires/" target="_blank" rel="noopener" class="contact-link">
+              <div class="contact-link__icon"><i data-lucide="linkedin"></i></div>
+              <div>
+                <p class="contact-link__label">LinkedIn</p>
+                <p class="contact-link__value">qspires</p>
+              </div>
+            </a>
+            <a href="https://github.com/QuelitonSouza" target="_blank" rel="noopener" class="contact-link">
+              <div class="contact-link__icon"><i data-lucide="github"></i></div>
+              <div>
+                <p class="contact-link__label">GitHub</p>
+                <p class="contact-link__value">QuelitonSouza</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="contact-availability">
+            <div class="availability-dot"></div>
+            <p>Disponível para novos projetos</p>
+          </div>
+
+          <div class="contact-location">
+            <i data-lucide="map-pin"></i>
+            <p>Joinville, Santa Catarina — Brasil</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo">QSP<span class="accent">info</span></a>
+        <p>Desenvolvimento de Software</p>
+      </div>
+      <div class="footer-links">
+        <a href="#experiencia">Experiência</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <p class="footer-copy">&copy; 2025 QSP Info. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
