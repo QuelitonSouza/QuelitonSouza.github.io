@@ -37,7 +37,7 @@
       <ul class="nav-menu" id="navMenu">
         <li><a href="#experiencia" class="nav-link">Experiência</a></li>
         <li><a href="#projetos" class="nav-link">Projetos</a></li>
-        <li><a href="#aplicacoes" class="nav-link">Aplicações</a></li>
+        <li><a href="#aplicacoes" class="nav-link">Meu Lab</a></li>
         <li><a href="#servicos" class="nav-link">Serviços</a></li>
         <li><a href="#tecnologias" class="nav-link">Tecnologias</a></li>
         <li><a href="#contato" class="nav-link nav-link--cta">Contato</a></li>
@@ -333,7 +333,7 @@
       <div class="projects-grid">
 
         <!-- Teseu -->
-        <article class="project-card project-card--featured" data-animate data-shot="img/projetos/teseu.jpg">
+        <article class="project-card project-card--featured" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="shield"></i>
@@ -412,7 +412,7 @@
         </article>
 
         <!-- GarageGuru -->
-        <article class="project-card" data-animate data-shot="img/projetos/garageguru.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="car"></i>
@@ -450,7 +450,7 @@
         </article>
 
         <!-- CONVOK -->
-        <article class="project-card" data-animate data-shot="img/projetos/convok.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="ticket"></i>
@@ -485,7 +485,7 @@
         </article>
 
         <!-- AgendaClinica -->
-        <article class="project-card" data-animate data-shot="img/projetos/agendaclinica.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="calendar-check"></i>
@@ -561,7 +561,7 @@
         </article>
 
         <!-- FlowBoard -->
-        <article class="project-card" data-animate data-shot="img/projetos/flowboard.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="kanban"></i>
@@ -598,8 +598,46 @@
           </div>
         </article>
 
+        <!-- AleSoft -->
+        <article class="project-card" data-animate>
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="code-2"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag tag--saas">Cliente</span>
+              <span class="tag">Plataforma</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">AleSoft</h3>
+          <p class="project-card__type">Consultoria TOTVS Datasul / Progress</p>
+          <p class="project-card__desc">
+            Site institucional e plataforma web para consultoria especializada em desenvolvimento sob medida para TOTVS Datasul, com área do cliente e cobrança integrada.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Site institucional com captação de contatos</li>
+            <li>Plataforma web com área do cliente</li>
+            <li>Cobranças integradas ao Asaas</li>
+            <li>Observabilidade com OpenTelemetry</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>.NET</span>
+            <span>React</span>
+            <span>PostgreSQL</span>
+            <span>OpenTelemetry</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://alesoft.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="external-link"></i> Site
+            </a>
+            <a href="https://app.alesoft.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="lock"></i> Plataforma
+            </a>
+          </div>
+        </article>
+
         <!-- Platte -->
-        <article class="project-card" data-animate data-shot="img/projetos/platte.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="zap"></i>
@@ -633,7 +671,7 @@
         </article>
 
         <!-- Spark EDM -->
-        <article class="project-card" data-animate data-shot="img/projetos/spark.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="wrench"></i>
@@ -671,7 +709,7 @@
         </article>
 
         <!-- Personal Raul -->
-        <article class="project-card" data-animate data-shot="img/projetos/personalraul.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="dumbbell"></i>
@@ -704,7 +742,7 @@
         </article>
 
         <!-- SiloePag -->
-        <article class="project-card" data-animate data-shot="img/projetos/siloepag.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="bar-chart-3"></i>
@@ -738,7 +776,7 @@
         </article>
 
         <!-- Intranet -->
-        <article class="project-card" data-animate data-shot="img/projetos/intranet.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="building-2"></i>
@@ -774,19 +812,18 @@
     </div>
   </section>
 
-  <!-- ============ APLICAÇÕES NO SERVIDOR ============ -->
+  <!-- ============ MEU LAB ============ -->
   <section class="section section--alt" id="aplicacoes">
     <div class="container">
       <div class="section-header">
-        <p class="section-tag">Infraestrutura Própria</p>
-        <h2 class="section-title">Aplicações no <span class="accent">Meu Servidor</span></h2>
-        <p class="section-subtitle">Sistemas próprios e de clientes operando em produção na minha infraestrutura: Docker + Coolify, Cloudflare Tunnel e PostgreSQL. Clique em um card para ver a tela.</p>
+        <h2 class="section-title">Meu <span class="accent">Lab</span></h2>
+        <p class="section-subtitle">Sistemas próprios e de clientes rodando em produção no meu lab.</p>
       </div>
 
       <div class="projects-grid">
 
         <!-- GymWorkout -->
-        <article class="project-card" data-animate data-shot="img/projetos/gymworkout.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="dumbbell"></i>
@@ -820,7 +857,7 @@
         </article>
 
         <!-- Farmacinha -->
-        <article class="project-card" data-animate data-shot="img/projetos/farmacinha.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="pill"></i>
@@ -855,7 +892,7 @@
         </article>
 
         <!-- The Best Break -->
-        <article class="project-card" data-animate data-shot="img/projetos/cantina.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="coffee"></i>
@@ -890,7 +927,7 @@
         </article>
 
         <!-- Mural do Casamento -->
-        <article class="project-card" data-animate data-shot="img/projetos/mural.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="heart"></i>
@@ -925,7 +962,7 @@
         </article>
 
         <!-- Shorly -->
-        <article class="project-card" data-animate data-shot="img/projetos/shortly.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="link"></i>
@@ -959,7 +996,7 @@
         </article>
 
         <!-- Keycloak 2FA -->
-        <article class="project-card" data-animate data-shot="img/projetos/pockeycloak.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="key-round"></i>
@@ -992,46 +1029,9 @@
           </div>
         </article>
 
-        <!-- AleSoft -->
-        <article class="project-card" data-animate data-shot="img/projetos/alesoft.jpg">
-          <div class="project-card__header">
-            <div class="project-card__icon">
-              <i data-lucide="code-2"></i>
-            </div>
-            <div class="project-card__tags">
-              <span class="tag tag--saas">Cliente</span>
-              <span class="tag">Plataforma</span>
-            </div>
-          </div>
-          <h3 class="project-card__title">AleSoft</h3>
-          <p class="project-card__type">Consultoria TOTVS Datasul / Progress</p>
-          <p class="project-card__desc">
-            Site institucional e plataforma web para consultoria especializada em desenvolvimento sob medida para TOTVS Datasul, com área do cliente e cobrança integrada.
-          </p>
-          <ul class="project-card__highlights">
-            <li>Site institucional com captação de contatos</li>
-            <li>Plataforma web com área do cliente</li>
-            <li>Cobranças integradas ao Asaas</li>
-            <li>Infraestrutura dedicada com observabilidade</li>
-          </ul>
-          <div class="project-card__tech">
-            <span>.NET</span>
-            <span>React</span>
-            <span>PostgreSQL</span>
-            <span>OpenTelemetry</span>
-          </div>
-          <div class="project-card__links">
-            <a href="https://alesoft.com.br/" target="_blank" rel="noopener" class="project-link">
-              <i data-lucide="external-link"></i> Site
-            </a>
-            <a href="https://app.alesoft.com.br/" target="_blank" rel="noopener" class="project-link">
-              <i data-lucide="lock"></i> Plataforma
-            </a>
-          </div>
-        </article>
 
         <!-- Portal de Vendas Irineu -->
-        <article class="project-card" data-animate data-shot="img/projetos/portalirineu.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="building-2"></i>
@@ -1066,7 +1066,7 @@
         </article>
 
         <!-- Fator R -->
-        <article class="project-card" data-animate data-shot="img/projetos/fatorr.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="calculator"></i>
@@ -1093,14 +1093,14 @@
             <span>PostgreSQL</span>
           </div>
           <div class="project-card__links">
-            <span class="project-link project-link--muted">
-              <i data-lucide="shield-check"></i> Acesso restrito (Zero Trust)
-            </span>
+            <a href="https://fatorr.qspinfo.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="lock"></i> Acessar
+            </a>
           </div>
         </article>
 
         <!-- MeuDinDin -->
-        <article class="project-card" data-animate data-shot="img/projetos/meudindin.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="wallet"></i>
@@ -1127,14 +1127,14 @@
             <span>PostgreSQL</span>
           </div>
           <div class="project-card__links">
-            <span class="project-link project-link--muted">
-              <i data-lucide="shield-check"></i> Acesso restrito (Zero Trust)
-            </span>
+            <a href="https://meudindin.qspinfo.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="lock"></i> Acessar
+            </a>
           </div>
         </article>
 
         <!-- Security Intelligence -->
-        <article class="project-card" data-animate data-shot="img/projetos/secintel.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="radar"></i>
@@ -1161,14 +1161,14 @@
             <span>PostgreSQL</span>
           </div>
           <div class="project-card__links">
-            <span class="project-link project-link--muted">
-              <i data-lucide="shield-check"></i> Acesso restrito (Zero Trust)
-            </span>
+            <a href="https://secintel.qspinfo.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="lock"></i> Acessar
+            </a>
           </div>
         </article>
 
         <!-- Rastreador Veicular -->
-        <article class="project-card" data-animate data-shot="img/projetos/rastreador.jpg">
+        <article class="project-card" data-animate>
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="map-pin"></i>
@@ -1196,9 +1196,9 @@
             <span>PostgreSQL</span>
           </div>
           <div class="project-card__links">
-            <span class="project-link project-link--muted">
-              <i data-lucide="shield-check"></i> Acesso restrito (Zero Trust)
-            </span>
+            <a href="https://rastreador.qspinfo.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="lock"></i> Acessar
+            </a>
           </div>
         </article>
 
@@ -1571,19 +1571,6 @@
   </footer>
 
   <!-- Scripts -->
-  <!-- ============ MODAL DE PRINT ============ -->
-  <dialog class="shot-modal" id="shotModal" aria-labelledby="shotModalTitle">
-    <div class="shot-modal__bar">
-      <h3 class="shot-modal__title" id="shotModalTitle"></h3>
-      <button type="button" class="shot-modal__close" id="shotModalClose" aria-label="Fechar">
-        <i data-lucide="x"></i>
-      </button>
-    </div>
-    <div class="shot-modal__frame">
-      <img id="shotModalImg" alt="">
-    </div>
-  </dialog>
-
   <script src="js/main.js"></script>
 </body>
 </html>
