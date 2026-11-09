@@ -37,6 +37,7 @@
       <ul class="nav-menu" id="navMenu">
         <li><a href="#experiencia" class="nav-link">Experiência</a></li>
         <li><a href="#projetos" class="nav-link">Projetos</a></li>
+        <li><a href="#aplicacoes" class="nav-link">Aplicações</a></li>
         <li><a href="#servicos" class="nav-link">Serviços</a></li>
         <li><a href="#tecnologias" class="nav-link">Tecnologias</a></li>
         <li><a href="#contato" class="nav-link nav-link--cta">Contato</a></li>
@@ -332,7 +333,7 @@
       <div class="projects-grid">
 
         <!-- Teseu -->
-        <article class="project-card project-card--featured" data-animate>
+        <article class="project-card project-card--featured" data-animate data-shot="img/projetos/teseu.jpg">
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="shield"></i>
@@ -411,7 +412,7 @@
         </article>
 
         <!-- GarageGuru -->
-        <article class="project-card" data-animate>
+        <article class="project-card" data-animate data-shot="img/projetos/garageguru.jpg">
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="car"></i>
@@ -449,7 +450,7 @@
         </article>
 
         <!-- CONVOK -->
-        <article class="project-card" data-animate>
+        <article class="project-card" data-animate data-shot="img/projetos/convok.jpg">
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="ticket"></i>
@@ -484,7 +485,7 @@
         </article>
 
         <!-- AgendaClinica -->
-        <article class="project-card" data-animate>
+        <article class="project-card" data-animate data-shot="img/projetos/agendaclinica.jpg">
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="calendar-check"></i>
@@ -560,7 +561,7 @@
         </article>
 
         <!-- FlowBoard -->
-        <article class="project-card" data-animate>
+        <article class="project-card" data-animate data-shot="img/projetos/flowboard.jpg">
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="kanban"></i>
@@ -598,7 +599,7 @@
         </article>
 
         <!-- Platte -->
-        <article class="project-card" data-animate>
+        <article class="project-card" data-animate data-shot="img/projetos/platte.jpg">
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="zap"></i>
@@ -632,7 +633,7 @@
         </article>
 
         <!-- Spark EDM -->
-        <article class="project-card" data-animate>
+        <article class="project-card" data-animate data-shot="img/projetos/spark.jpg">
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="wrench"></i>
@@ -670,7 +671,7 @@
         </article>
 
         <!-- Personal Raul -->
-        <article class="project-card" data-animate>
+        <article class="project-card" data-animate data-shot="img/projetos/personalraul.jpg">
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="dumbbell"></i>
@@ -703,7 +704,7 @@
         </article>
 
         <!-- SiloePag -->
-        <article class="project-card" data-animate>
+        <article class="project-card" data-animate data-shot="img/projetos/siloepag.jpg">
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="bar-chart-3"></i>
@@ -737,7 +738,7 @@
         </article>
 
         <!-- Intranet -->
-        <article class="project-card" data-animate>
+        <article class="project-card" data-animate data-shot="img/projetos/intranet.jpg">
           <div class="project-card__header">
             <div class="project-card__icon">
               <i data-lucide="building-2"></i>
@@ -773,8 +774,440 @@
     </div>
   </section>
 
+  <!-- ============ APLICAÇÕES NO SERVIDOR ============ -->
+  <section class="section section--alt" id="aplicacoes">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Infraestrutura Própria</p>
+        <h2 class="section-title">Aplicações no <span class="accent">Meu Servidor</span></h2>
+        <p class="section-subtitle">Sistemas próprios e de clientes operando em produção na minha infraestrutura: Docker + Coolify, Cloudflare Tunnel e PostgreSQL. Clique em um card para ver a tela.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- GymWorkout -->
+        <article class="project-card" data-animate data-shot="img/projetos/gymworkout.jpg">
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="dumbbell"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag tag--saas">SaaS</span>
+              <span class="tag">PWA</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">GymWorkout</h3>
+          <p class="project-card__type">Treinos e Evolução de Cargas</p>
+          <p class="project-card__desc">
+            App de treino de academia offline-first: monte fichas, registre séries e cargas mesmo sem sinal e acompanhe sua evolução. Sincroniza automaticamente quando a conexão volta.
+          </p>
+          <ul class="project-card__highlights">
+            <li>PWA offline-first com sincronização em segundo plano</li>
+            <li>Atualizações em tempo real via SignalR</li>
+            <li>Cadastro público com aprovação do administrador</li>
+            <li>Mídia em storage interno servida pela API</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>.NET 10</span>
+            <span>React 19</span>
+            <span>PostgreSQL</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://gymworkout.qspinfo.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="external-link"></i> Acessar
+            </a>
+          </div>
+        </article>
+
+        <!-- Farmacinha -->
+        <article class="project-card" data-animate data-shot="img/projetos/farmacinha.jpg">
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="pill"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag tag--saas">SaaS</span>
+              <span class="tag">PWA</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Farmacinha</h3>
+          <p class="project-card__type">Farmácia Caseira Organizada</p>
+          <p class="project-card__desc">
+            Organiza a caixa de remédios da família num lugar só: o que tem em casa, quando vence e para que serve. Sem planilha, sem bagunça na gaveta.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Controle de validade com alertas de vencimento</li>
+            <li>Grupos familiares com acesso compartilhado</li>
+            <li>Fotos dos remédios com upload seguro pela API</li>
+            <li>Instalável no celular e funciona offline</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>.NET 8</span>
+            <span>React</span>
+            <span>PostgreSQL</span>
+            <span>MinIO</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://farmacinha.qspinfo.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="external-link"></i> Acessar
+            </a>
+          </div>
+        </article>
+
+        <!-- The Best Break -->
+        <article class="project-card" data-animate data-shot="img/projetos/cantina.jpg">
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="coffee"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag tag--saas">SaaS</span>
+              <span class="tag">Pagamentos</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">The Best Break</h3>
+          <p class="project-card__type">Crédito de Cantina Escolar</p>
+          <p class="project-card__desc">
+            Substitui a ficha de papel da cantina de uma escola: o responsável recarrega por PIX, a criança compra mostrando o QR da carteirinha e o saldo aparece no celular na hora.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Ledger imutável — saldo calculado pelos lançamentos</li>
+            <li>Balcão com leitura de QR Code</li>
+            <li>Painel do responsável em tempo real</li>
+            <li>Avisos por Web Push</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>.NET 10</span>
+            <span>React 19</span>
+            <span>SignalR</span>
+            <span>PostgreSQL</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://cantina.qspinfo.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="external-link"></i> Acessar
+            </a>
+          </div>
+        </article>
+
+        <!-- Mural do Casamento -->
+        <article class="project-card" data-animate data-shot="img/projetos/mural.jpg">
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="heart"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag">Eventos</span>
+              <span class="tag">Tempo Real</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Mural do Casamento</h3>
+          <p class="project-card__type">Mural Interativo para Eventos</p>
+          <p class="project-card__desc">
+            Convidados escaneiam um QR Code e enviam fotos, vídeos e recados que aparecem no telão da festa, depois de passar pela moderação dos noivos.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Envio sem login, direto do celular do convidado</li>
+            <li>Painel de moderação</li>
+            <li>Telão em loop com atualização em tempo real</li>
+            <li>Conteúdo guardado como recordação do evento</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>.NET 8</span>
+            <span>React</span>
+            <span>SignalR</span>
+            <span>PostgreSQL</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://mural.qspinfo.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="external-link"></i> Ver Mural
+            </a>
+          </div>
+        </article>
+
+        <!-- Shorly -->
+        <article class="project-card" data-animate data-shot="img/projetos/shortly.jpg">
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="link"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag tag--saas">SaaS</span>
+              <span class="tag">Analytics</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Shorly</h3>
+          <p class="project-card__type">Encurtador de URLs</p>
+          <p class="project-card__desc">
+            Encurtador de links com analytics: crie URLs curtas e personalizadas e acompanhe os cliques dia a dia em um painel próprio.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Slugs personalizados</li>
+            <li>Estatísticas de cliques por dia</li>
+            <li>Redirecionamento rápido</li>
+            <li>Painel com os links de cada usuário</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>ASP.NET Core</span>
+            <span>SPA</span>
+            <span>PostgreSQL</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://shortly.qspinfo.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="external-link"></i> Acessar
+            </a>
+          </div>
+        </article>
+
+        <!-- Keycloak 2FA -->
+        <article class="project-card" data-animate data-shot="img/projetos/pockeycloak.jpg">
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="key-round"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag tag--saas">Segurança</span>
+              <span class="tag">POC</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Keycloak 2FA</h3>
+          <p class="project-card__type">Prova de Conceito — Autenticação em Dois Fatores</p>
+          <p class="project-card__desc">
+            Demonstra o mesmo segundo fator (TOTP) em dois fluxos: login na tela do Keycloak (authorization code + PKCE) e login na tela da própria aplicação, sem redirecionamento.
+          </p>
+          <ul class="project-card__highlights">
+            <li>OAuth 2.0 / OpenID Connect com PKCE</li>
+            <li>TOTP compatível com Google Authenticator</li>
+            <li>2FA opcional por usuário</li>
+            <li>Roteiro de teste e documentação interativa</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>Keycloak 26</span>
+            <span>Node.js</span>
+            <span>OIDC</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://poc-login.qspinfo.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="external-link"></i> Demo
+            </a>
+          </div>
+        </article>
+
+        <!-- AleSoft -->
+        <article class="project-card" data-animate data-shot="img/projetos/alesoft.jpg">
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="code-2"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag tag--saas">Cliente</span>
+              <span class="tag">Plataforma</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">AleSoft</h3>
+          <p class="project-card__type">Consultoria TOTVS Datasul / Progress</p>
+          <p class="project-card__desc">
+            Site institucional e plataforma web para consultoria especializada em desenvolvimento sob medida para TOTVS Datasul, com área do cliente e cobrança integrada.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Site institucional com captação de contatos</li>
+            <li>Plataforma web com área do cliente</li>
+            <li>Cobranças integradas ao Asaas</li>
+            <li>Infraestrutura dedicada com observabilidade</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>.NET</span>
+            <span>React</span>
+            <span>PostgreSQL</span>
+            <span>OpenTelemetry</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://alesoft.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="external-link"></i> Site
+            </a>
+            <a href="https://app.alesoft.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="lock"></i> Plataforma
+            </a>
+          </div>
+        </article>
+
+        <!-- Portal de Vendas Irineu -->
+        <article class="project-card" data-animate data-shot="img/projetos/portalirineu.jpg">
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="building-2"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag tag--saas">Cliente</span>
+              <span class="tag">Integração ERP</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Portal de Vendas Irineu</h3>
+          <p class="project-card__type">Irineu Imóveis — Loteamentos</p>
+          <p class="project-card__desc">
+            Portal para corretores consultarem empreendimentos, lotes, tabelas de preço e propostas, integrado ao ERP TOTVS RM, que segue como fonte da verdade.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Integração com TOTVS RM via SOAP</li>
+            <li>Catálogo com milhares de lotes sincronizado em cache</li>
+            <li>Perfis de administrador e corretor</li>
+            <li>Modo degradado quando o ERP está indisponível</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>.NET 8</span>
+            <span>React</span>
+            <span>PostgreSQL</span>
+            <span>TOTVS RM</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://portal-irineu.qspinfo.com.br/" target="_blank" rel="noopener" class="project-link">
+              <i data-lucide="lock"></i> Acessar
+            </a>
+          </div>
+        </article>
+
+        <!-- Fator R -->
+        <article class="project-card" data-animate data-shot="img/projetos/fatorr.jpg">
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="calculator"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag tag--saas">Fiscal</span>
+              <span class="tag">Uso interno</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Fator R</h3>
+          <p class="project-card__type">DAS e Fator R do Simples Nacional</p>
+          <p class="project-card__desc">
+            Calcula o Fator R e projeta o DAS do Simples Nacional mês a mês, apoiando a decisão de enquadramento entre os Anexos III e V.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Cálculo do Fator R pela folha dos últimos 12 meses</li>
+            <li>Projeção do DAS por competência</li>
+            <li>Histórico de faturamento e pró-labore</li>
+            <li>PWA com login próprio</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>.NET 10</span>
+            <span>React 19</span>
+            <span>PostgreSQL</span>
+          </div>
+          <div class="project-card__links">
+            <span class="project-link project-link--muted">
+              <i data-lucide="shield-check"></i> Acesso restrito (Zero Trust)
+            </span>
+          </div>
+        </article>
+
+        <!-- MeuDinDin -->
+        <article class="project-card" data-animate data-shot="img/projetos/meudindin.jpg">
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="wallet"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag tag--saas">Finanças</span>
+              <span class="tag">Uso interno</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">MeuDinDin</h3>
+          <p class="project-card__type">Gestão Financeira Pessoal</p>
+          <p class="project-card__desc">
+            Controle financeiro pessoal: contas, lançamentos, categorias e visão do mês, com banco dedicado e conexão criptografada entre API e banco.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Lançamentos de receitas e despesas por categoria</li>
+            <li>Visão consolidada do mês</li>
+            <li>Backup automatizado com monitoramento</li>
+            <li>Migrado de SQL Server para PostgreSQL</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>.NET 8</span>
+            <span>React 19</span>
+            <span>PostgreSQL</span>
+          </div>
+          <div class="project-card__links">
+            <span class="project-link project-link--muted">
+              <i data-lucide="shield-check"></i> Acesso restrito (Zero Trust)
+            </span>
+          </div>
+        </article>
+
+        <!-- Security Intelligence -->
+        <article class="project-card" data-animate data-shot="img/projetos/secintel.jpg">
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="radar"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag tag--saas">Segurança</span>
+              <span class="tag">Uso interno</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Security Intelligence</h3>
+          <p class="project-card__type">Coleta e Investigação de Eventos de Segurança</p>
+          <p class="project-card__desc">
+            Coleta evidência técnica de fluxos sensíveis em eventos append-only com cadeia de hash, enriquece localmente (GeoIP, ASN, listas) e permite investigar num console com MFA.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Collector público autenticado por API key</li>
+            <li>Eventos imutáveis com cadeia de hash</li>
+            <li>Enriquecimento por worker dedicado</li>
+            <li>Dashboard com login + TOTP</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>.NET 10</span>
+            <span>Next.js 14</span>
+            <span>PostgreSQL</span>
+          </div>
+          <div class="project-card__links">
+            <span class="project-link project-link--muted">
+              <i data-lucide="shield-check"></i> Acesso restrito (Zero Trust)
+            </span>
+          </div>
+        </article>
+
+        <!-- Rastreador Veicular -->
+        <article class="project-card" data-animate data-shot="img/projetos/rastreador.jpg">
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <i data-lucide="map-pin"></i>
+            </div>
+            <div class="project-card__tags">
+              <span class="tag tag--saas">IoT</span>
+              <span class="tag">Uso interno</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Rastreador Veicular</h3>
+          <p class="project-card__type">Rastreamento em Tempo Real</p>
+          <p class="project-card__desc">
+            Recebe posições de aparelhos (protocolo OsmAnd / Traccar Client e envio em lote), mostra os veículos ao vivo no mapa e reconstrói as viagens automaticamente.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Mapa ao vivo com Leaflet e SignalR</li>
+            <li>Motor de detecção de viagens</li>
+            <li>Endpoint de ingest isolado do painel</li>
+            <li>Auto-update do app coletor</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>.NET 8</span>
+            <span>React</span>
+            <span>Leaflet</span>
+            <span>PostgreSQL</span>
+          </div>
+          <div class="project-card__links">
+            <span class="project-link project-link--muted">
+              <i data-lucide="shield-check"></i> Acesso restrito (Zero Trust)
+            </span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
   <!-- ============ PROJECTS - CORPORATE / LEGACY ============ -->
-  <section class="section section--alt" id="projetos-corporativos">
+  <section class="section" id="projetos-corporativos">
     <div class="container">
       <div class="section-header">
         <p class="section-tag">Trajetória Corporativa</p>
@@ -931,7 +1364,7 @@
   </section>
 
   <!-- ============ SERVICES ============ -->
-  <section class="section" id="servicos">
+  <section class="section section--alt" id="servicos">
     <div class="container">
       <div class="section-header">
         <p class="section-tag">Serviços</p>
@@ -975,7 +1408,7 @@
   </section>
 
   <!-- ============ TECHNOLOGIES ============ -->
-  <section class="section section--alt" id="tecnologias">
+  <section class="section" id="tecnologias">
     <div class="container">
       <div class="section-header">
         <p class="section-tag">Stack</p>
@@ -1059,7 +1492,7 @@
   </section>
 
   <!-- ============ CONTACT ============ -->
-  <section class="section" id="contato">
+  <section class="section section--alt" id="contato">
     <div class="container">
       <div class="section-header">
         <p class="section-tag">Contato</p>
@@ -1138,6 +1571,19 @@
   </footer>
 
   <!-- Scripts -->
+  <!-- ============ MODAL DE PRINT ============ -->
+  <dialog class="shot-modal" id="shotModal" aria-labelledby="shotModalTitle">
+    <div class="shot-modal__bar">
+      <h3 class="shot-modal__title" id="shotModalTitle"></h3>
+      <button type="button" class="shot-modal__close" id="shotModalClose" aria-label="Fechar">
+        <i data-lucide="x"></i>
+      </button>
+    </div>
+    <div class="shot-modal__frame">
+      <img id="shotModalImg" alt="">
+    </div>
+  </dialog>
+
   <script src="js/main.js"></script>
 </body>
 </html>

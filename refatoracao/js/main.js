@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initScrollAnimations();
   initCounterAnimation();
   initSmoothScroll();
+  initShotModal();
 });
 
 /* ---------- NAVIGATION ---------- */
@@ -130,4 +131,56 @@ function initSmoothScroll() {
       }
     });
   });
+}
+
+/* ---------- MODAL DE PRINT DOS PROJETOS ---------- */
+function initShotModal() {
+  const modal = document.getElementById('shotModal');
+  if (!modal || typeof modal.showModal !== 'function') return;
+  const img = document.getElementById('shotModalImg');
+  const title = document.getElementById('shotModalTitle');
+
+  document.querySelectorAll('.project-card[data-shot]').forEach(card => {
+    const name = card.querySelector('.project-card__title')?.textContent.trim() || '';
+    card.setAttribute('tabindex', '0');
+    card.setAttribute('role', 'button');
+    card.setAttribute('aria-label', `Ver tela de ${name}`);
+
+    // Dica visual no rodapé do card
+    const links = card.querySelector('.project-card__links');
+    if (links) {
+      const hint = document.createElement('span');
+      hint.className = 'project-card__shot-hint';
+      hint.innerHTML = '<i data-lucide="image"></i> Ver tela';
+      links.appendChild(hint);
+    }
+
+    const open = () => {
+      title.textContent = name;
+      img.alt = `Tela de ${name}`;
+      img.src = card.dataset.shot;
+      modal.showModal();
+    };
+
+    card.addEventListener('click', (e) => {
+      if (e.target.closest('a')) return; // links do card seguem normais
+      open();
+    });
+    card.addEventListener('keydown', (e) => {
+      if (e.target !== card) return;
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        open();
+      }
+    });
+  });
+
+  lucide.createIcons();
+
+  document.getElementById('shotModalClose').addEventListener('click', () => modal.close());
+  // Clique fora da imagem (no backdrop) fecha
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) modal.close();
+  });
+  modal.addEventListener('close', () => { img.removeAttribute('src'); });
 }
